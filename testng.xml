@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Calley Suite">
+  <test name="All Tests">
+    <classes>
+      
+      <class name="Testcases.RegistrationTest"/>
+      <class name="Testcases.LoginTest"/>      
+      <class name="Testcases.AgentTest"/>
+      <class name="Testcases.CSVUploadTest1"/>
+    </classes>
+  </test>
+</suite>

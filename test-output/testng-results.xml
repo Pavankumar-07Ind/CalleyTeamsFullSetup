@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-15T13:58:41 IST" name="Calley Suite" finished-at="2025-05-15T14:01:23 IST" duration-ms="162028">
+    <groups>
+    </groups>
+    <test started-at="2025-05-15T13:58:41 IST" name="All Tests" finished-at="2025-05-15T14:01:23 IST" duration-ms="162028">
+      <class name="Testcases.RegistrationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Testcases.RegistrationTest@65e98b1c]" started-at="2025-05-15T13:58:41 IST" name="setUp" finished-at="2025-05-15T13:58:50 IST" duration-ms="8858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerUser()[pri:0, instance:Testcases.RegistrationTest@65e98b1c]" started-at="2025-05-15T13:58:50 IST" name="registerUser" finished-at="2025-05-15T13:59:24 IST" duration-ms="34476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.RegistrationTest@65e98b1c]" started-at="2025-05-15T13:59:25 IST" name="tearDown" finished-at="2025-05-15T13:59:26 IST" duration-ms="1816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.RegistrationTest -->
+      <class name="Testcases.AgentTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.AgentTest@b2c9a9c]" started-at="2025-05-15T13:59:55 IST" name="setup" finished-at="2025-05-15T14:00:17 IST" duration-ms="22243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addAgentTest()[pri:0, instance:Testcases.AgentTest@b2c9a9c]" started-at="2025-05-15T14:00:17 IST" name="addAgentTest" finished-at="2025-05-15T14:00:17 IST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Agent tab is not present. Please ensure your account has access to Team/Agent features.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Agent tab is not present. Please ensure your account has access to Team/Agent features.
+at org.testng.Assert.fail(Assert.java:111)
+at Testcases.AgentTest.addAgentTest(AgentTest.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAgentTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.AgentTest@b2c9a9c]" started-at="2025-05-15T14:00:17 IST" name="teardown" finished-at="2025-05-15T14:00:19 IST" duration-ms="1823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.AgentTest -->
+      <class name="Testcases.CSVUploadTest1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Testcases.CSVUploadTest1@4c178a76]" started-at="2025-05-15T14:00:19 IST" name="setup" finished-at="2025-05-15T14:01:03 IST" duration-ms="43916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="uploadCSVTest1()[pri:0, instance:Testcases.CSVUploadTest1@4c178a76]" started-at="2025-05-15T14:01:03 IST" name="uploadCSVTest1" finished-at="2025-05-15T14:01:22 IST" duration-ms="19315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadCSVTest1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.CSVUploadTest1@4c178a76]" started-at="2025-05-15T14:01:22 IST" name="tearDown" finished-at="2025-05-15T14:01:23 IST" duration-ms="1219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.CSVUploadTest1 -->
+      <class name="Testcases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Testcases.LoginTest@2362f559]" started-at="2025-05-15T13:59:26 IST" name="setUp" finished-at="2025-05-15T13:59:30 IST" duration-ms="3971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginUser()[pri:0, instance:Testcases.LoginTest@2362f559]" started-at="2025-05-15T13:59:30 IST" name="loginUser" finished-at="2025-05-15T13:59:52 IST" duration-ms="22015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcases.LoginTest@2362f559]" started-at="2025-05-15T13:59:52 IST" name="tearDown" finished-at="2025-05-15T13:59:55 IST" duration-ms="2208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.LoginTest -->
+    </test> <!-- All Tests -->
+  </suite> <!-- Calley Suite -->
+</testng-results>
